@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-h>	init.vim	/^nnoremap <C-h> <C-w>h$/;"	m
+<C-j>	init.vim	/^nnoremap <C-j> <C-w>j$/;"	m
+<C-k>	init.vim	/^nnoremap <C-k> <C-w>k$/;"	m
+<C-l>	init.vim	/^	imap <C-l>     <Plug>(neosnippet_expand_or_jump)$/;"	m
+<C-l>	init.vim	/^nnoremap <C-l> <C-w>l$/;"	m
+<CR>	init.vim	/^nnoremap <CR> :noh<CR><CR> $/;"	m
+<F5>	init.vim	/^nnoremap <buffer><F5> :exec '!python' shellescape(@%, 1)<cr>$/;"	m
+<F5>	init.vim	/^vnoremap <buffer><F5> :exec '!python' shellescape(@%, 1)<cr>$/;"	m
+<Leader>/	init.vim	/^	nnoremap <Leader>\/ :Ag<CR>$/;"	m
+<Leader><Leader>	init.vim	/^nnoremap <Leader><Leader> za$/;"	m
+<Leader><Leader>	init.vim	/^vnoremap <Leader><Leader> za$/;"	m
+<Leader>c	init.vim	/^nnoremap <Leader>c "+y$/;"	m
+<Leader>c	init.vim	/^vnoremap <Leader>c "+y$/;"	m
+<Leader>g	init.vim	/^	nnoremap <Leader>g :GFiles<CR>$/;"	m
+<Leader>o	init.vim	/^	nnoremap <Leader>o :FZF<CR>$/;"	m
+<Leader>p	init.vim	/^	nnoremap <Leader>p :Buffer<CR>$/;"	m
+<Leader>r	init.vim	/^		nnoremap <Leader>r :Ranger<CR>$/;"	m
+<Leader>s	init.vim	/^nnoremap <Leader>s :w !python$/;"	m
+<Leader>s	init.vim	/^vnoremap <Leader>s :w !python$/;"	m
+<Leader>v	init.vim	/^nnoremap <Leader>v "+p$/;"	m
+<Leader>v	init.vim	/^vnoremap <Leader>v "+p$/;"	m
+<Space>	init.vim	/^nnoremap <Space> <NOP>$/;"	m
+<TAB>	init.vim	/^	inoremap <expr><TAB>  pumvisible() ? "\\<C-n>" : "\\<TAB>"$/;"	m
+<tab>	init.vim	/^nnoremap <tab> <c-^>$/;"	m
+MyFoldText	init.vim	/^function! MyFoldText()$/;"	f
+NeatFoldText	init.vim	/^function! NeatFoldText()$/;"	f
+Y	init.vim	/^nnoremap Y y\$$/;"	m
+colors_name	noctu2.vim	/^let colors_name="noctu2"$/;"	v
+deoplete#sources#jedi#show_docstring	init.vim	/^	let deoplete#sources#jedi#show_docstring=1$/;"	v
+fzf_statusline	init.vim	/^	function! s:fzf_statusline()$/;"	f
+g:clang_auto_select	init.vim	/^		let g:clang_auto_select = 0$/;"	v
+g:clang_complete_auto	init.vim	/^		let g:clang_complete_auto = 0$/;"	v
+g:clang_make_default_keymappings	init.vim	/^		let g:clang_make_default_keymappings = 0$/;"	v
+g:clang_omnicppcomplete_compliance	init.vim	/^		let g:clang_omnicppcomplete_compliance = 0$/;"	v
+g:ctrlp_user_command	init.vim	/^	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'$/;"	v
+g:deoplete#auto_completion_start_length	init.vim	/^	let g:deoplete#auto_completion_start_length = 2$/;"	v
+g:deoplete#enable_at_startup	init.vim	/^	let g:deoplete#enable_at_startup = 1$/;"	v
+g:deoplete#enable_smart_case	init.vim	/^	let g:deoplete#enable_smart_case = 1$/;"	v
+g:fastfold_fdmhook	init.vim	/^	let g:fastfold_fdmhook = 0$/;"	v
+g:fastfold_fold_command_suffixes	init.vim	/^	let g:fastfold_fold_command_suffixes =  ['x','X','a','A','o','O','c','C']$/;"	v
+g:fastfold_fold_movement_commands	init.vim	/^	let g:fastfold_fold_movement_commands = [']z', '[z', 'zj', 'zk']$/;"	v
+g:fastfold_savehook	init.vim	/^	let g:fastfold_savehook = 1$/;"	v
+g:gutentags_tagfile	init.vim	/^	let g:gutentags_tagfile = ".tags"$/;"	v
+g:neomake_python_enabled_makers	init.vim	/^    let g:neomake_python_enabled_makers = ['python']$/;"	v
+g:neosnippet#snippets_directory	init.vim	/^	let g:neosnippet#snippets_directory = "~\/packages\/vimrc\/snippets"$/;"	v
+g:ranger_map_keys	init.vim	/^		let g:ranger_map_keys = 0$/;"	v
+j	init.vim	/^nnoremap <silent> j gj$/;"	m
+k	init.vim	/^nnoremap <silent> k gk$/;"	m
+kj	init.vim	/^inoremap kj <ESC>$/;"	m
+mapleader	init.vim	/^let mapleader = "\\<Space>"$/;"	v
+s:border	init.vim	/^  let s:border = synIDattr(synIDtrans(hlID('Normal')), 'bg', 'gui')$/;"	v
+zuz	init.vim	/^	nmap zuz <Plug>(FastFoldUpdate)$/;"	m
